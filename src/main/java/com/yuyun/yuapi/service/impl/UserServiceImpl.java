@@ -1,7 +1,5 @@
 package com.yuyun.yuapi.service.impl;
 
-import static com.yuyun.yuapi.constant.UserConstant.USER_LOGIN_STATE;
-
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -16,10 +14,6 @@ import com.yuyun.yuapi.model.vo.LoginUserVO;
 import com.yuyun.yuapi.model.vo.UserVO;
 import com.yuyun.yuapi.service.UserService;
 import com.yuyun.yuapi.utils.SqlUtils;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
-import javax.servlet.http.HttpServletRequest;
 import lombok.extern.slf4j.Slf4j;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
 import org.apache.commons.lang3.StringUtils;
@@ -27,11 +21,18 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.util.DigestUtils;
 
+import javax.servlet.http.HttpServletRequest;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import static com.yuyun.yuapi.constant.UserConstant.USER_LOGIN_STATE;
+
 /**
  * 用户服务实现
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author yuyun
+ * 
  */
 @Service
 @Slf4j
@@ -40,7 +41,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
     /**
      * 盐值，混淆密码
      */
-    private static final String SALT = "yupi";
+    private static final String SALT = "yuyun";
 
     @Override
     public long userRegister(String userAccount, String userPassword, String checkPassword) {
@@ -126,8 +127,8 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
             // 用户不存在则创建
             if (user == null) {
                 user = new User();
-                user.setUnionId(unionId);
-                user.setMpOpenId(mpOpenId);
+//                user.setUnionId(unionId);
+//                user.setMpOpenId(mpOpenId);
                 user.setUserAvatar(wxOAuth2UserInfo.getHeadImgUrl());
                 user.setUserName(wxOAuth2UserInfo.getNickname());
                 boolean result = this.save(user);

@@ -6,15 +6,16 @@ import com.yuyun.yuapi.model.dto.user.UserQueryRequest;
 import com.yuyun.yuapi.model.entity.User;
 import com.yuyun.yuapi.model.vo.LoginUserVO;
 import com.yuyun.yuapi.model.vo.UserVO;
-import java.util.List;
-import javax.servlet.http.HttpServletRequest;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 /**
  * 用户服务
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ * @author yuyun
+ * 
  */
 public interface UserService extends IService<User> {
 
