@@ -87,3 +87,7 @@ cos:
     secretKey: xxx
     region: xxx
     bucket: xxx
+yuapi:
+  client:
+    access-key: yuyun
+    secret-key: abcdefg
