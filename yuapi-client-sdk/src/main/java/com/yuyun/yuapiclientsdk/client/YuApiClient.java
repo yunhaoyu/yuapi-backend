@@ -21,7 +21,7 @@ import static com.yuyun.yuapiclientsdk.utils.SignUtils.genSign;
  */
 public class YuApiClient {
 
-    private static final String GATEWAY_HOST = "http://localhost:8123";
+    private static final String GATEWAY_HOST = "http://localhost:8090";
 
     private String accessKey;
 
