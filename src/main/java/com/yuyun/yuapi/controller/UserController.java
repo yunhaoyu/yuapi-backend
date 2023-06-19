@@ -16,7 +16,6 @@ import com.yuyun.yuapi.model.dto.user.UserQueryRequest;
 import com.yuyun.yuapi.model.dto.user.UserRegisterRequest;
 import com.yuyun.yuapi.model.dto.user.UserUpdateMyRequest;
 import com.yuyun.yuapi.model.dto.user.UserUpdateRequest;
-import com.yuyun.yuapi.model.entity.User;
 import com.yuyun.yuapi.model.vo.LoginUserVO;
 import com.yuyun.yuapi.model.vo.UserVO;
 import com.yuyun.yuapi.service.UserService;
@@ -24,6 +23,8 @@ import java.util.List;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.yuyun.yuapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
 import me.chanjar.weixin.common.bean.oauth2.WxOAuth2AccessToken;

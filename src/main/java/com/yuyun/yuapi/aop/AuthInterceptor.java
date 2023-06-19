@@ -3,11 +3,12 @@ package com.yuyun.yuapi.aop;
 import com.yuyun.yuapi.annotation.AuthCheck;
 import com.yuyun.yuapi.common.ErrorCode;
 import com.yuyun.yuapi.exception.BusinessException;
-import com.yuyun.yuapi.model.entity.User;
 import com.yuyun.yuapi.model.enums.UserRoleEnum;
 import com.yuyun.yuapi.service.UserService;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.yuyun.yuapicommon.model.entity.User;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

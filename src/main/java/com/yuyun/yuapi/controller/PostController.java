@@ -15,13 +15,14 @@ import com.yuyun.yuapi.model.dto.post.PostEditRequest;
 import com.yuyun.yuapi.model.dto.post.PostQueryRequest;
 import com.yuyun.yuapi.model.dto.post.PostUpdateRequest;
 import com.yuyun.yuapi.model.entity.Post;
-import com.yuyun.yuapi.model.entity.User;
 import com.yuyun.yuapi.model.vo.PostVO;
 import com.yuyun.yuapi.service.PostService;
 import com.yuyun.yuapi.service.UserService;
 import java.util.List;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.yuyun.yuapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.GetMapping;

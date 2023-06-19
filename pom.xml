@@ -16,6 +16,7 @@
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -94,6 +95,11 @@
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
             <version>5.8.15</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yuyun</groupId>
+            <artifactId>yuapi-common</artifactId>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>com.yuyun</groupId>

@@ -3,9 +3,9 @@ package com.yuyun.yuapi.service;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.yuyun.yuapi.model.dto.user.UserQueryRequest;
-import com.yuyun.yuapi.model.entity.User;
 import com.yuyun.yuapi.model.vo.LoginUserVO;
 import com.yuyun.yuapi.model.vo.UserVO;
+import com.yuyun.yuapicommon.model.entity.User;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
 
 import javax.servlet.http.HttpServletRequest;

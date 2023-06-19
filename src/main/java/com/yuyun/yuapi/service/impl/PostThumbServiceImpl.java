@@ -7,10 +7,11 @@ import com.yuyun.yuapi.exception.BusinessException;
 import com.yuyun.yuapi.mapper.PostThumbMapper;
 import com.yuyun.yuapi.model.entity.Post;
 import com.yuyun.yuapi.model.entity.PostThumb;
-import com.yuyun.yuapi.model.entity.User;
 import com.yuyun.yuapi.service.PostService;
 import com.yuyun.yuapi.service.PostThumbService;
 import javax.annotation.Resource;
+
+import com.yuyun.yuapicommon.model.entity.User;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,7 +1,7 @@
 package com.yuyun.yuapi.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yuyun.yuapi.model.entity.InterfaceInfo;
+import com.yuyun.yuapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author yuyun

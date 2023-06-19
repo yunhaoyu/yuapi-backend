@@ -4,8 +4,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yuyun.yuapi.common.ErrorCode;
 import com.yuyun.yuapi.exception.BusinessException;
 import com.yuyun.yuapi.mapper.InterfaceInfoMapper;
-import com.yuyun.yuapi.model.entity.InterfaceInfo;
 import com.yuyun.yuapi.service.InterfaceInfoService;
+import com.yuyun.yuapicommon.model.entity.InterfaceInfo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 

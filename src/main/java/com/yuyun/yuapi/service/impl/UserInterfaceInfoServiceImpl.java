@@ -5,8 +5,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yuyun.yuapi.common.ErrorCode;
 import com.yuyun.yuapi.exception.BusinessException;
 import com.yuyun.yuapi.mapper.UserInterfaceInfoMapper;
-import com.yuyun.yuapi.model.entity.UserInterfaceInfo;
 import com.yuyun.yuapi.service.UserInterfaceInfoService;
+import com.yuyun.yuapicommon.model.entity.UserInterfaceInfo;
 import org.springframework.stereotype.Service;
 
 /**
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 */
 @Service
 public class UserInterfaceInfoServiceImpl extends ServiceImpl<UserInterfaceInfoMapper, UserInterfaceInfo>
-    implements UserInterfaceInfoService{
+    implements UserInterfaceInfoService {
 
 
     @Override

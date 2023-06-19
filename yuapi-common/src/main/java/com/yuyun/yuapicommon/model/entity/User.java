@@ -1,4 +1,4 @@
-package com.yuyun.yuapi.model.entity;
+package com.yuyun.yuapicommon.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
@@ -8,9 +8,10 @@ import java.util.Date;
 
 /**
  * 用户
+ *
  * @TableName user
  */
-@TableName(value ="user")
+@TableName(value = "user")
 @Data
 public class User implements Serializable {
     /**
@@ -30,11 +31,6 @@ public class User implements Serializable {
     private String userAccount;
 
     /**
-     * 密码
-     */
-    private String userPassword;
-
-    /**
      * 用户头像
      */
     private String userAvatar;
@@ -45,17 +41,22 @@ public class User implements Serializable {
     private Integer gender;
 
     /**
-     * 用户角色：user / admin
+     * 用户角色: user, admin
      */
     private String userRole;
 
     /**
-     * accessKey
+     * 密码
+     */
+    private String userPassword;
+
+    /**
+     * 签名 accessKey
      */
     private String accessKey;
 
     /**
-     * secretKey
+     * 签名 secretKey
      */
     private String secretKey;
 

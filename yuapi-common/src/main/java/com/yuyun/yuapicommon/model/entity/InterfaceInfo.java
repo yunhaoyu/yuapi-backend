@@ -1,4 +1,4 @@
-package com.yuyun.yuapi.model.entity;
+package com.yuyun.yuapicommon.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
@@ -8,10 +8,9 @@ import java.util.Date;
 
 /**
  * 接口信息
- *
  * @TableName interface_info
  */
-@TableName(value = "interface_info")
+@TableName(value ="interface_info")
 @Data
 public class InterfaceInfo implements Serializable {
     /**
@@ -37,6 +36,9 @@ public class InterfaceInfo implements Serializable {
 
     /**
      * 请求参数
+     * [
+     *   {"name": "username", "type": "string"}
+     * ]
      */
     private String requestParams;
 
@@ -76,7 +78,7 @@ public class InterfaceInfo implements Serializable {
     private Date updateTime;
 
     /**
-     * 是否删除(0-未删，1-已删)
+     * 是否删除(0-未删, 1-已删)
      */
     @TableLogic
     private Integer isDelete;

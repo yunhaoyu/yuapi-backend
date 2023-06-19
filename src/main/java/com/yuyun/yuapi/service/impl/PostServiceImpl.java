@@ -16,7 +16,6 @@ import com.yuyun.yuapi.model.dto.post.PostQueryRequest;
 import com.yuyun.yuapi.model.entity.Post;
 import com.yuyun.yuapi.model.entity.PostFavour;
 import com.yuyun.yuapi.model.entity.PostThumb;
-import com.yuyun.yuapi.model.entity.User;
 import com.yuyun.yuapi.model.vo.PostVO;
 import com.yuyun.yuapi.model.vo.UserVO;
 import com.yuyun.yuapi.service.PostService;
@@ -30,6 +29,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.yuyun.yuapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.ObjectUtils;

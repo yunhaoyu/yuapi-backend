@@ -1,7 +1,7 @@
 package com.yuyun.yuapi.service;
 
-import com.yuyun.yuapi.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.yuyun.yuapicommon.model.entity.UserInterfaceInfo;
 
 /**
 * @author yuyunhao
@@ -10,6 +10,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface UserInterfaceInfoService extends IService<UserInterfaceInfo> {
     void validUserInterfaceInfo(UserInterfaceInfo userinterfaceInfo, boolean add);
+
 
     /**
      * 调用接口统计
