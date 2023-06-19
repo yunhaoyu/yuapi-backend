@@ -91,3 +91,12 @@ yuapi:
   client:
     access-key: yuyun
     secret-key: abcdefg
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848
