@@ -89,8 +89,8 @@ cos:
     bucket: xxx
 yuapi:
   client:
-    access-key: yuyun
-    secret-key: abcdefg
+    access-key: d46a75fce483ff3f8a9cc15532bdbeeb
+    secret-key: 38daed9211d7d0578597f60992bff401
 dubbo:
   application:
     name: dubbo-springboot-demo-provider

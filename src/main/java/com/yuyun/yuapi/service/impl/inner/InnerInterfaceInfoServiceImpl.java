@@ -1,4 +1,4 @@
-package com.yuyun.yuapi.service.impl;
+package com.yuyun.yuapi.service.impl.inner;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.yuyun.yuapi.common.ErrorCode;

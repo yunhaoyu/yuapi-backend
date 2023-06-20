@@ -1,4 +1,4 @@
-package com.yuyun.yuapi.service.impl;
+package com.yuyun.yuapi.service.impl.inner;
 
 import com.yuyun.yuapi.service.UserInterfaceInfoService;
 import com.yuyun.yuapicommon.service.InnerUserInterfaceInfoService;

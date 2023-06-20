@@ -19,10 +19,15 @@
     </properties>
     <dependencies>
         <dependency>
-        <groupId>com.yuyun</groupId>
-        <artifactId>yuapi-client-sdk</artifactId>
-        <version>0.0.1</version>
-    </dependency>
+            <groupId>com.yuyun</groupId>
+            <artifactId>yuapi-client-sdk</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.yuyun</groupId>
+            <artifactId>yuapi-common</artifactId>
+            <version>0.0.1</version>
+        </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.dubbo/dubbo -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>

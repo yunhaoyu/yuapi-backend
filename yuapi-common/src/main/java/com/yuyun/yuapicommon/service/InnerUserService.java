@@ -15,5 +15,5 @@ public interface InnerUserService {
      * @param accessKey
      * @return
      */
-    User getInvokeUser(String accessKey,String secretKey);
+    User getInvokeUser(String accessKey);
 }
